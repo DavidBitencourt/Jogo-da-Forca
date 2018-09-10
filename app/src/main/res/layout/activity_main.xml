@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSteelBlue"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/CadetBlue"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forca"
+            android:id="@+id/imgForca"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDicas"
+                android:textColor="@color/OliveDrab"
+                android:layout_marginLeft="80dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLetras"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="80dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linear"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/txtPalavra"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="A"
+            android:id="@+id/btnA"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="B"
+            android:id="@+id/btnB"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="C"
+            android:id="@+id/btnC"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="D"
+            android:id="@+id/btnD"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="E"
+            android:id="@+id/btnE"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="F"
+            android:id="@+id/btnF"
+            android:onClick="pegarLetra"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="G"
+            android:id="@+id/btnG"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="H"
+            android:id="@+id/btnH"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="I"
+            android:id="@+id/btnI"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="J"
+            android:id="@+id/btnJ"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="K"
+            android:id="@+id/btnK"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="L"
+            android:id="@+id/btnL"
+            android:onClick="pegarLetra"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="M"
+            android:id="@+id/btnM"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="N"
+            android:id="@+id/btnN"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="O"
+            android:id="@+id/btnO"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="P"
+            android:id="@+id/btnP"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Q"
+            android:id="@+id/btnQ"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="R"
+            android:id="@+id/btnR"
+            android:onClick="pegarLetra"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="S"
+            android:id="@+id/btnS"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="T"
+            android:id="@+id/btnT"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="U"
+            android:id="@+id/btnU"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="V"
+            android:id="@+id/btnV"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="W"
+            android:id="@+id/btnW"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="X"
+            android:id="@+id/btnX"
+            android:onClick="pegarLetra"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Y"
+            android:id="@+id/btnY"
+            android:onClick="pegarLetra"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/Black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Z"
+            android:id="@+id/btnZ"
+            android:onClick="pegarLetra"/>
+
+     </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
